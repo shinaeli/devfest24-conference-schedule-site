@@ -1,0 +1,383 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('src/assets/Images/Light Bulb.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #808080;
+  background-blend-mode: multiply;
+  box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.5);
+  color: white;
+}
+
+.dosis-bold {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.dosis-semibold {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.dosis-medium {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.dosis-regular {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dosis-light {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.container {
+  width: 90%;
+  margin: 20px auto 0px;
+  /* border: 2px solid yellowgreen; */
+  padding: 20px;
+}
+
+.brand {
+  color: #87cefa;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+nav ul {
+  list-style-type: none;
+  width: 40%;
+}
+
+nav li {
+  display: inline-block;
+  width: 30%;
+  margin-right: 15px;
+  /* border: 2px solid red; */
+  text-align: center;
+  padding: 10px;
+  background-color: darkslateblue;
+  border-radius: 5px;
+}
+
+nav li:hover {
+  background-color: #87cefa;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+section h3, .payment-header {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+section p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-align: justify;
+  line-height: 1.5;
+  color: #87cefa;
+}
+
+.buy-ticket, .paystack-button, .back-to-home {
+  display: block;
+  width: 20%;
+  margin: 30px auto;
+  padding: 15px;
+  color: #fff;
+  background-color: darkslateblue;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.buy-ticket:hover, .paystack-button:hover, .back-to-home:hover {
+  color: #000;
+  background-color: #87cefa;
+}
+
+.guest {
+  width: 23%;
+  /* border: 2px solid salmon; */
+  margin: 15px 0px;
+  border-radius: 8px;
+}
+
+.guests-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.guest-image img:hover {
+  opacity: 0.2;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.guest h3 {
+  text-align: center;
+  margin: 10px 0px;
+  color: #87cefa;
+  font-size: 1.5rem;
+}
+
+.payment {
+  width: 50%;
+  border: 2px solid orange;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.full-name, .phone, .email {
+  width: 90%;
+  margin: 30px auto;
+  /* border: 1px solid #ff09ad; */
+}
+
+label {
+  display: block;
+  margin: 10px 0px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+}
+
+.bio-container {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.bio {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 50px 20px;
+}
+
+.bio-image {
+  width: 25%;
+  border-radius: 12px;
+}
+
+.bio-details {
+  width: 65%;
+}
+
+.bio-details h1, .food-options > h1, .speakers > h1, .schedule > h1, .location > h1 {
+  margin-bottom: 30px;
+  font-size: 2.8rem;
+}
+
+.bio-details p {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  color: #87cefa;
+  text-align: justify;
+}
+
+.food-options h1, .food-options h3, .speakers h3, .location h3, .address h3, .location-description h3, .location-features h3 {
+  text-align: left;
+}
+
+.foods-main {
+  margin: 30px 0px;
+}
+
+.foods-main div, .day-1 div {
+  margin-bottom: 30px;
+}
+
+.speakers {
+  margin-bottom: 40px;
+}
+
+.location, .address, .location-description, .location-features {
+  margin-bottom: 30px;
+}
+
+.location p, .address p, .location-description p, .location-features p {
+  line-height: 1.5;
+}
+
+.error-main-title {
+  margin: 50px 0px;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.error-sub-title {
+  margin: 30px 0px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.error-text {
+  width: 80%;
+  margin: 30px auto;
+  font-size: 2rem;
+  text-align: center;
+  color: #87cefa;
+}
+
+.footer a {
+  color: #87cefa;
+  text-decoration: none;
+}
+
+.copyright {
+  width: 65%;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .side-bar {
+    width: 60%;
+    height: 100vh;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background-color: #808080;
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.5);
+    border-radius: 8px;
+    opacity: 0.9;
+    padding: 40px 10px;
+  }
+
+  .side-bar ul {
+    margin-top: 50px;
+    padding: 20px;
+    /* border: 2px solid red; */
+    width: 100%;
+  }
+
+  .close-menu {
+    width: 45px;
+    height: 45px;
+    margin-left: 75%;
+    margin-right: 15%;
+  }
+
+  .mobile-nav li {
+    display: block;
+    width: 100%;
+    margin: 50px 0px;
+    text-align: center;
+    padding: 20px;
+    background-color: darkslateblue;
+    border-radius: 5px;
+  }
+
+  section h3, .payment-header {
+    font-size: 1.5rem;
+  }
+  
+  section p {
+    font-size: 1rem;
+  }
+
+  .bio-details h1, .food-options > h1, .speakers > h1, .schedule > h1, .location > h1 {
+    font-size: 2rem;
+  }
+  
+  .bio-details p {
+    line-height: 1.2;
+    font-size: 1rem;
+    color: #87cefa;
+    text-align: justify;
+  }
+
+  .guest {
+    width: 45%;
+  }
+
+  .guest h3 {
+    font-size: 1.2rem;
+  }
+
+  .payment {
+    width: 95%;
+  }
+
+  .buy-ticket, .paystack-button, .back-to-home {
+    width: 50%;
+    font-size: 1.2rem;
+  }
+
+  .error-main-title {
+    font-size: 3rem;
+  }
+  
+  .error-sub-title {
+    font-size: 2rem;
+  }
+  
+  .error-text {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+
+  .copyright {
+    width: 80%;
+    font-size: 1.2rem;
+  }
+}
