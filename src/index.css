@@ -52,7 +52,7 @@ body {
 
 .container {
   width: 90%;
-  margin: 20px auto 0px;
+  margin: 0px auto 20px;
   /* border: 2px solid yellowgreen; */
   padding: 20px;
 }
@@ -166,7 +166,7 @@ img {
 
 .payment {
   width: 50%;
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   padding: 20px;
   margin: 20px auto;
 }
