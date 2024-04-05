@@ -24,7 +24,7 @@ const Navbar = () => {
             <h1 className='dosis-bold brand'>DevFest24</h1>
             {showMenu && (<section className="side-bar">
                 <div onClick={() => setShowMenu(false)} className="close-menu">
-                    <img src="src/assets/Icons/close_FILL0_wght400_GRAD0_opsz24.svg" alt="close icon" />
+                    <img src="/assets/Icons/close_FILL0_wght400_GRAD0_opsz24.svg" alt="close icon" />
                 </div>
                 <ul>
                     <li>
@@ -39,7 +39,7 @@ const Navbar = () => {
                 </ul>
             </section>)}
             {!showMenu && (<div onClick={() => setShowMenu(true)} className="menu">
-                <img src="src/assets/Icons/menu_FILL0_wght400_GRAD0_opsz24.svg" alt="menu icon" />
+                <img src="/assets/Icons/menu_FILL0_wght400_GRAD0_opsz24.svg" alt="menu icon" />
             </div>)}
         </nav>
     </div>

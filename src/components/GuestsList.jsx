@@ -5,7 +5,7 @@ import Guest from './utils/Guest'
 const GuestsList = () => {
   return (
     <div className="container guests-list">
-        {guestLists.map(item => <Guest item={item} />)}
+        {guestLists.map((item, index) => <Guest key={index} item={item} />)}
     </div>
   )
 }
