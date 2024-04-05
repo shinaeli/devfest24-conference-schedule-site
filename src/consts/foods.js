@@ -41,7 +41,7 @@ export const foodsInfo = [
         id: 5,
         foodClass: '5. Dietary Accommodations:',
         info: [
-            'DevCon 24 is committed to accommodating various dietary restrictions and preferences, including vegetarian, vegan, gluten-free, dairy-free, and nut-free options.',
+            'DevFest 24 is committed to accommodating various dietary restrictions and preferences, including vegetarian, vegan, gluten-free, dairy-free, and nut-free options.',
             'Our culinary team will work closely with attendees to ensure their dietary needs are met, with special consideration given to food allergies, intolerances, and cultural preferences.',
             'If you have specific dietary requirements, please inform us in advance during the registration process or contact our event organizers to make arrangements for customized meals.',
             "At DevFest 24, we strive to provide a memorable and enjoyable dining experience for all attendees, with an emphasis on quality, variety, and inclusivity. Whether you're seeking a quick bite between sessions or a leisurely meal to network with fellow participants, our diverse food options are designed to cater to your every need and delight your taste buds."
